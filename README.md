@@ -1,6 +1,7 @@
 # 🛍️ Digital Store
 
-**Digital Store** é uma aplicação de e-commerce desenvolvida com foco na venda de tênis. O projeto utiliza as principais tecnologias de Front-end como **ReactJS**, **HTML**, **CSS** e **JavaScript**, proporcionando uma experiência moderna, modular e eficiente para usuários que desejam navegar, filtrar e visualizar produtos de forma intuitiva.
+**Digital Store** é uma aplicação de e-commerce desenvolvida com foco na venda de tênis. O projeto utiliza as principais tecnologias de Front-end como **ReactJS**, **HTML**, **CSS** e **JavaScript**, proporcionando uma experiência moderna, modular e eficiente para usuários que desejam navegar, filtrar e visualizar produtos de forma intuitiva.<br><br>
+Projeto Baseado no projeto original da [Digital College](https://github.com/digitalcollegebr/projeto-digital-store)
 
 ## 📁 Estrutura de Pastas
 
