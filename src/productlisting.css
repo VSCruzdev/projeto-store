@@ -1,0 +1,109 @@
+.productflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    padding: 80px;
+    padding-left: 200px;
+}
+
+.order-border{
+    border: solid;
+    border-color: rgba(89, 89, 89, 0.285);
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.order-flex {
+    display:flex;
+}
+
+.logo-arrow {
+    margin-left: 40px;
+}
+
+.filter{
+    padding-bottom: 20px;
+}
+
+.tenis{
+    display: flex;
+}
+
+.filter-block{
+    display:flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 200px;
+    padding-top: 50px;
+    margin-bottom: 2300px;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 10px;
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list{
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.filter-list ul{
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.li-filter {
+    display:flex;
+    padding-bottom: 10px;
+}
+
+.line{
+    color: rgba(0, 0, 0, 0.148);
+    margin-right: -150px;
+}
+
+@media screen and (max-width: 1009px){
+    .product-listing-page-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter-block{
+        display: none;
+    }
+
+    .productflex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .result {
+        padding: 0px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .order-border{
+        border: solid;
+        border-color: rgba(89, 89, 89, 0.285);
+        border-radius: 5px;
+        margin-right: 10px;
+        padding-right: 20px;
+        margin-top: 60px;
+        margin-bottom: 70px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

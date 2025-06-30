@@ -1,0 +1,10 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd; /* Exemplo de borda */
+  overflow: hidden;
+}
+
+.selected-thumbnail {
+  border: 2px solid var(--primary-color, blue); /* Exemplo de cor primária, definir no CSS global */
+}

@@ -1,0 +1,10 @@
+.product-options-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.product-option {
+  box-sizing: border-box; /* Inclui preenchimento e borda na largura e altura total do elemento */
+}

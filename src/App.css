@@ -1,0 +1,722 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.logo-container {
+  @apply flex items-center justify-center;
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+.search-container {
+  @apply flex items-center justify-center;
+  border-radius: 5px;
+  background-color: rgba(244, 239, 239, 0.9);
+  padding: 10px;
+  padding-left: 30px;
+  margin-left: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    background-color: #f8f2f2;
+    height: 100vh;
+    position: relative;
+}
+
+.search-input {
+    width: 900px;
+    color: black;
+}
+
+.search-button {
+    color: black;
+    cursor: pointer;
+}
+
+.filter-group {
+  color:#666666;
+  font-weight: bold;
+  padding: 15px 150px;
+  background-color: #ffffff;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  font-family: Arial, sans-serif;
+}
+
+.list-nav{
+    display:flex;
+}
+
+.div-pa-mobile{
+    display: flex;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding-top: -20px;
+    margin-bottom: -19px;
+}
+
+.filter-link {
+  text-decoration: none;
+  margin: 0 15px;
+  padding-bottom: 5px;
+  position: relative;
+  font-size: 1em;
+  transition: color 0.2s ease-in-out;
+}
+
+.filter-link:not(.active):hover {
+  color: #777777;
+}
+
+.filter-link.active {
+  color: #D91A60;
+}
+
+.filter-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+  width: 100%; 
+  height: 3px; 
+  background-color: #D91A60; 
+}
+
+.gallery-title {
+    position: absolute;
+    margin: none;
+    padding: none;
+    display: flex;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-button1 {
+    text-decoration: underline;
+    color: #666666;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.header-button2 {
+    color: white;
+    background-color: #C92071;
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-name {
+    display: absolute;
+    margin-right: 150px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.main-main {
+    display: block;
+    padding-bottom: 150px;
+}
+
+.build-main {
+    margin: 0;
+    position: absolute;
+    right: 1050px;
+    top: 350px;
+    left: 300px;
+}
+
+.image {
+    width: 733.51px;
+    height: 681px;
+    position: relative;
+    display: flex;
+    top: -180px;
+    left: 850px;
+    animation: slideImageIn 1s ease-in-out forwards;
+    transform: rotate(-20deg);
+}
+
+.dots-pattern {
+    position: absolute;
+    top: 210px;
+    right: 210px;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(#F6AA1C 2px, transparent 2px);
+    background-size: 15px 15px;
+    animation: fadeIn 1s ease;
+    border-radius: 100%;
+}
+
+.light {
+    font-size: 19px;
+    color: rgb(252, 191, 7);
+    padding-bottom: 10px;
+}
+
+.stronger {
+    padding-top: 0px;
+    font-size: 70px;
+    line-height: 62px;
+}
+
+.top{
+    padding-bottom: 0px;
+}
+
+.middle{
+    margin-top: -50px;
+}
+
+.paragraph {
+    color: #474747;
+    padding-top: 20px;
+}
+
+.promotions {
+    color: white;
+    background-color: #C92071;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-container {
+    background-color: #dcf1fdb6;
+    padding: 0;
+}
+
+.sec1title {
+    padding-left: 310px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    color:#7d5151;
+}
+
+.sec2title {
+    padding-left: 310px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    padding-top: 100px;
+    color:#7d5151;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.border {
+    border-radius: 14px;
+    border: none;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+
+.product-card {
+    width: 320px; 
+    text-align: left;
+    box-sizing: border-box;
+    padding: 16px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.secjordan {
+    display: flex;
+    background-color: #f8f2f2;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.secjordanImage {
+    width: 3000px;
+    height: 700px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.secjordan-text {
+    margin-top: 50px;
+    padding-right: 180px;
+}
+
+.pink {
+    color:  #D91A60;
+    font-weight: bold;
+}
+
+.secjordan-title {
+    font-size: 3.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    padding-top: 15px;
+    line-height: 62px;  
+}
+
+.buttonOferta {
+    background-color: #D91A60;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.sapato {
+    transform: rotate(-20deg);
+    width: 280px; 
+    display: block; 
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.description {
+    padding-left: 0; 
+    padding-bottom: 10px;
+}
+
+.product-type { 
+    font-size: 0.9rem; 
+    color: #777777;
+    margin-bottom: 4px; 
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333333; 
+    margin-bottom: 8px; 
+}
+
+.price-container {
+    display: flex; 
+    align-items: baseline; 
+    gap: 8px;
+}
+
+.original-price { 
+    font-size: 1.1rem; 
+    color: #666666;
+    text-decoration: line-through; 
+}
+
+.current-price { 
+    font-size: 1.6rem; 
+    font-weight: bold;
+    color: #333333; 
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: white;
+    padding: 2.5rem 0 1.25rem;
+    margin-top: 3.75rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.footer-logo {
+    flex: 0 0 30%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.footer-logo img {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.footer-logo p {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.rodape-info-container {
+    flex: 0 0 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    padding-right: 50px;
+}
+
+.footer-column h3 {
+    font-weight: bold;
+}
+
+.footer-column li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.footer-column2 h3 {
+    font-weight: bold;
+}
+
+.footer-column2 li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-column3{
+    padding-left: 40px;
+}
+
+.footer-column3 h3{
+    font-weight: bold;
+}
+
+.addressWrap{
+    padding-right: 20px;
+    margin-right: 50px;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-links ul li a:hover {
+    color: #C92071;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.25rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.menu_mobile{
+    display: none;
+    position: relative;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1009px){
+    .main-main {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .menu_mobile{
+        display: flex;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .build-main {
+        position: relative;
+        margin-bottom: 600px;
+        background-color: var(--gray-bg);
+        overflow: hidden;
+    }   
+
+    .btn-close{
+        top: 5px;
+        left: 30px;
+        position: absolute;
+        color:#333333;  
+    }
+
+    .filter-group{
+        display: none;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 130px;
+        flex-direction: column;
+        align-items: baseline;
+        background-color: #ffffff;
+        height: 100vh;
+        z-index: 99999;
+        overflow: hidden;
+    }
+
+    .div-pa-mobile{
+        background-color: white;
+    }
+
+    .list-nav{
+        padding-top: 90px;
+        position: absolute;
+        right: 140px;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .list-nav li{
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+
+    .list-nav.abrir-menu{
+        width: 70%;
+    } 
+    
+    .pa-mobile{
+        color: #333333;
+        padding-top: 20px;
+        position: absolute;
+        right: 208px;
+    }
+
+
+    .light {
+        font-size: 18px;
+        color:  #D91A60;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .build-main {
+        margin: 0;
+        position: absolute;
+        right: 0px;
+        bottom: 20px;
+        top: 350px;
+        left: 0px;
+    }
+
+    .image {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        top:-120px;
+        left: 20px;
+        animation: slideImageIn 1s ease-in-out forwards;
+        transform: rotate(-20deg);
+        margin-bottom: 300px;
+    }
+
+    .dots-pattern {
+        position: absolute;
+        top: 90px;
+        right: -70px;
+        width: 140px;
+        height: 140px;
+        background-image: radial-gradient(#F6AA1C 2px, transparent 3px);
+        animation: fadeIn 1s ease;
+        border-radius: 100%;
+    }
+
+    .stronger {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 42px;
+    }
+
+    .top{
+        padding-bottom: 0px;
+        margin-left: 90px;
+    }
+
+    .middle {
+        margin-top: -80px;
+        margin-left: 40px;
+    }
+
+    .paragraph{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+
+    .promotions{
+        margin-left: 30px;
+        font-weight: bold;
+        padding-left: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 120px;
+    }
+
+    .search-input, .header-buttons{
+        display:none;
+    }
+
+    .flexmob {
+        width: 600px;
+        padding-right: 80px;
+    }
+
+    .logo-container{
+        padding-right:0;
+        margin-right:0;
+        padding-left: -5px;
+    }
+
+    .search-container{
+        background-color: white;
+    }
+
+    .search-button{
+        padding-right: 10px;
+        padding-left: 0;
+        margin-left:0;
+    }
+
+    .box-name{
+        padding-right:10px;
+    }
+
+    .coluna {
+        flex-direction: column;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        padding-bottom: 40px;
+    }
+
+    .social-media-links li{
+        padding-right: 20px;
+    }
+
+    .footer-column3{
+        flex-wrap: nowrap;
+        padding-left: 30px;
+    }
+
+    .rodape-info-container{
+        flex-wrap: nowrap;
+    }
+
+    .sec1title {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        padding-top: 30px;
+        color:#7d5151;
+    }
+
+    .sec2title {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        padding-top: 30px;
+        color:#7d5151;
+    }
+
+    .inner{
+        flex-direction: column;
+        justify-content: none;
+        align-items: baseline;
+        padding: 10px;
+    }
+
+    .border{
+        padding-bottom: 10px;
+    }
+
+    .cards{
+        gap: 5px;
+    }
+
+    .product-card{
+        width: 185px;
+        text-align: left;
+        padding: 10px;  
+    }
+
+    .pink{
+        color: rgb(252, 191, 7);
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .secjordan{
+        flex-direction: column;
+        justify-content: baseline;
+        padding-left: 0;
+    }
+
+    .secjordan-text{
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .secjordan-title{
+        padding: 0;
+        font-size: 43px;
+        padding-left: 20px;
+    }
+
+    .secjordanImage{
+        width: 350px;
+        height: 500px;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: -50px;
+    }
+
+    .buttonOferta{
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1009px) {
+    
+}

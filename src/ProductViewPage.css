@@ -1,0 +1,323 @@
+.sub-title {
+    font-size: 1.1em;
+    color: rgb(96, 100, 102);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.group-tenis{
+    display:flex;
+    margin-top: 50px;
+}
+
+.img-tenis {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: rgba(196, 196, 245, 0.713);
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: -30px;
+    padding-bottom: 20px;
+}
+
+.information-tenis{
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+
+.title-product{
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.casual{
+    margin-top:10px;
+    color: rgba(96, 100, 102, 0.783);
+}
+
+.avaliation {
+    display:flex;
+    margin-top: 10px;
+}
+
+.stars{
+    font-size: 1.5em;
+    color: rgba(255, 137, 33, 0.874);
+    margin-right:10px;
+}
+
+.avaliation-star{
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 137, 33, 0.874);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.avaliation-numbers{
+    color: rgba(115, 121, 124, 0.703);
+    margin-top: 7px;
+}
+
+.prices{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(54, 57, 60);
+}
+
+.price-big{
+    font-size:2.2em;
+}
+
+.price-del{
+    color: rgba(129, 136, 140, 0.554);
+    margin-left: 10px;
+}
+
+.description-product{
+    font-weight: bold;
+    color: rgb(129, 136, 140);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.size-product{
+    display:flex;
+}
+
+.size {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bg1{
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #94797938;
+    border-radius: 10px;
+    background-color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.bg2{
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #94797938;
+    border-radius: 10px;
+    background-color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.bg3{
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #94797938;
+    border-radius: 10px;
+    background-color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.bg4{
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #94797938;
+    border-radius: 10px;
+    background-color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.bg5{
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #94797938;
+    border-radius: 10px;
+    background-color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.bg1:hover {
+    background-color: rgba(195, 8, 123, 0.874);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+} 
+
+.bg2:hover {
+    background-color: rgba(195, 8, 123, 0.874);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+} 
+
+.bg3:hover {
+    background-color: rgba(195, 8, 123, 0.874);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+} 
+
+.bg4:hover {
+    background-color: rgba(195, 8, 123, 0.874);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+} 
+
+.bg5:hover {
+    background-color: rgba(195, 8, 123, 0.874);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+} 
+
+.button-buy {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(255, 137, 33, 0.874);
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding-left: 63px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.group-products{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.products-related{
+    font-weight: bold;
+    color:rgb(82, 87, 91);
+    font-size: 1.6em;
+    margin-left: 110px;
+}
+
+.others-products{
+    color:rgb(255, 54, 178);
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-right: 110px;
+}
+
+.others-products:hover {
+    color: rgb(255, 54, 178);
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1009px){
+    .sub-title {
+        margin-left: 20px;
+    }
+
+    .group-tenis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-tenis {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .information-tenis {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .title-product {
+        font-size: 1.7em;
+    }
+
+    .casual {
+        font-size: 1.1em;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .avaliation {
+        margin-left: 10px;
+    }
+
+    .prices{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: rgb(54, 57, 60);
+    }
+
+    .description-product {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .paraghap-tenis{
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+
+    .size {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .button-buy {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .group-products {
+        display: flex;
+    }
+
+    .products-related{
+        font-weight: bold;
+        color:rgb(82, 87, 91);
+        font-size: 1.0em;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .others-products{
+        color:rgb(255, 54, 178);
+        font-size: 1.0em;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+}
+
