@@ -108,7 +108,7 @@ Desenvolvido por: Victor da Silva Cruz<br>
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/VSCruzdev/digital-store.git
+git clone https://github.com/VSCruzdev/projeto-store
 ```
 
 ## Observação
